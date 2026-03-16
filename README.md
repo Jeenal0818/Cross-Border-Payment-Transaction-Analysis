@@ -1,11 +1,11 @@
-# 💸 Cross-Border Payment Transaction Analyzer  
+# Cross-Border Payment Transaction Analyzer  
 
 This project demonstrates how to analyze **cross-border payment transactions** using **CrewAI**.  
 It simulates a payment transaction flow, evaluates associated risks, and produces a clean **Markdown report** with clear headings and bullet points.  
 
 ---
 
-## 📌 Project Overview  
+## Project Overview  
 
 The goal of this project is to automate the analysis of international transactions between banks.  
 Key aspects include:  
@@ -21,19 +21,19 @@ This makes the project useful for:
 
 ---
 
-## ⚙️ Features  
+## Features  
 
-- ✅ Define cross-border transaction details as structured inputs.  
-- ✅ Run analysis with **CrewAI agent + task** execution.  
-- ✅ Output a **Markdown report** with:  
+-  Define cross-border transaction details as structured inputs.  
+-  Run analysis with **CrewAI agent + task** execution.  
+-  Output a **Markdown report** with:  
   - Transaction details  
   - Risk assessment  
   - AI-generated reasoning  
-- ✅ Simple, extensible structure to add more agents/rules.  
+-  Simple, extensible structure to add more agents/rules.  
 
 ---
 
-## 🏗️ How It Works  
+## How It Works  
 
 1. **Define Inputs**  
    Each transaction is represented as a dictionary containing amount, origin, and destination details.  
@@ -49,7 +49,7 @@ This makes the project useful for:
 
 ---
 
-## 📂 Code Structure  
+## Code Structure  
 
 ├── cross-border-payment-transaction-analysis.ipynb   # Builds CrewAI analysis task
 
@@ -57,7 +57,7 @@ This makes the project useful for:
 
 ---
 
-## 🔮 Future Improvements  
+## Future Improvements  
 
 - Add multiple **risk factors** (fraud detection, blacklisted banks, unusual patterns).  
 - Support for **multi-agent collaboration** (compliance agent, fraud agent, financial analyst).  
@@ -65,7 +65,7 @@ This makes the project useful for:
 
 ---
 
-## 🤝 Contributing  
+## Contributing  
 
 Contributions are welcome!  
 
